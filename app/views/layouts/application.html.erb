@@ -12,16 +12,24 @@
   <body>
 
      <header class="row">
-    <div class="col-3">
-        LOGO
-      </div>
-      <div class="col-4">
+    <div id="cf">
+  <img class="bottom" src="http://cssdeck.com/uploads/media/items/6/6NyhMy8.jpg" />
+  <img class="top" src="http://cssdeck.com/uploads/media/items/0/0UycnoM.jpg" />
+</div>
+      <div class="col-4 slogan">
         This is something you will tell all of your friends and family about!!!
       </div>
-      <div class="col-5">
+      <div class="col-5 links">
         <%= link_to 'About', '#' %>
       </div>
       </header>
+
+      <hr />
+
+
+      <br class="clear" />
+
+
     <%= yield %>
   </body>
 </html>
