@@ -12,13 +12,15 @@
 
 #cf{
   position:relative;
-  width:250px;
-  height: 300px;
+  width: 50px;
+  height: 50px;
   margin: 0 auto;
 }
 
 #cf img{
   position:absolute;
+  width:50px;
+  height: 50px;
   left:0;
   top: 0;
   -webkit-transition:opacity 1s ease-in-out;
@@ -28,22 +30,7 @@
       transition:opacity 1s ease-in-out;
 }
 
-#cf img.top {
-  left: 20px;
-  top: -5px;
-}
 
-#cf img.top:hover{
-  opacity:0;
-}
-
-img.bottom{
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  transform: scale(1.1);
-}
 
 .slogan {
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
@@ -65,8 +52,36 @@ img.bottom{
 
 header {
   border-top: 9px solid #222222;
+  height: 50px;
 }
 
 hr {
   clear:both;
 }
+
+.hero {
+   background: image_url('hero.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 500px;
+  box-shadow: 0px 3px 8px #2a2a2a;
+}
+
+
+h1, h2, h3, h4, h5, h6, .navbar {
+  margin: 0;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+
+
+
+
+
+
+

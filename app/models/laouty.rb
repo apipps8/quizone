@@ -1,0 +1,2 @@
+class Laouty < ApplicationRecord
+end
